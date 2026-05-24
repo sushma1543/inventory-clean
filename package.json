@@ -1,0 +1,31 @@
+{
+  "name": "allo-inventory-system",
+  "private": true,
+  "scripts": {
+    "predev": "npm run seed",
+    "dev": "next dev",
+    "prestart": "npm run seed",
+    "build": "next build",
+    "start": "next start",
+    "seed": "tsx prisma/seed.ts"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.19.0",
+    "autoprefixer": "^10.5.0",
+    "next": "^16.2.6",
+    "postcss": "^8.5.15",
+    "prisma": "^6.19.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "tailwindcss": "^4.3.0",
+    "tsx": "^4.22.3"
+  },
+  "devDependencies": {
+    "@types/node": "25.9.1",
+    "@types/react": "19.2.15",
+    "typescript": "^6.0.3"
+  }
+}
